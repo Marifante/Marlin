@@ -138,6 +138,9 @@
 #if ANY_THERMISTOR_IS(99) // 100k bed thermistor with a 10K pull-up resistor (on some Wanhao i3 models)
   #include "thermistor_99.h"
 #endif
+#if ANY_THERMISTOR_IS(104)
+  #include "thermistor_104.h" // NTC3950 CYT1064 thermistor in FlyingBear P902
+#endif
 #if ANY_THERMISTOR_IS(110) // Pt100 with 1k0 pullup
   #include "thermistor_110.h"
 #endif

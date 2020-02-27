@@ -406,13 +406,13 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 1000 //NTC3950 Thermistor CYT1064
+#define TEMP_SENSOR_0 104 //NTC3950 Thermistor CYT1064
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
 #define TEMP_SENSOR_5 0
-#define TEMP_SENSOR_BED 1000  //NTC3950 Thermistor CYT1064
+#define TEMP_SENSOR_BED 104  //NTC3950 Thermistor CYT1064
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -719,7 +719,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 99.51, 99.51, 850, 440 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 99.7, 99.7, 795, 440 }
 
 /**
  * Default Max Feed Rate (mm/s)
