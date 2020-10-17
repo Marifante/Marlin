@@ -722,7 +722,7 @@
  *  Old values for P902: { 99.7, 99.7, 795, 440 } 
  */
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 1596, 880 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 202.83, 202.42, 1640.97, 860 }
 
 /**
  * Default Max Feed Rate (mm/s)
